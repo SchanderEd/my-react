@@ -1,0 +1,14 @@
+@import '../../main.scss';
+
+.header {
+  background-color: $white;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 10px 10px;
+}

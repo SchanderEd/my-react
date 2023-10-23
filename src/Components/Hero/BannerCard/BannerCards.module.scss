@@ -1,0 +1,20 @@
+@import '../../../vars.scss';
+
+.bannerCard {
+  max-width: 470px;
+  padding: 48px 60px 48px 48px;
+  background-color: $white;
+  border-radius: 8px;
+}
+
+.bannerHeading {
+  margin-bottom: 22px;
+  line-height: 48px;
+  font-size: 40px;
+  color: $secondaryText;
+}
+
+.bannerDescr {
+  margin-bottom: 73px;
+  font-size: 16px;
+}

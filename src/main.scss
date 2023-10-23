@@ -1,0 +1,21 @@
+@import './vars.scss';
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: $black;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

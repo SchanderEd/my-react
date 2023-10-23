@@ -1,0 +1,31 @@
+.navMenu {
+  flex: 1 1 0;
+  padding-top: 10px;
+  padding-left: 62px;
+
+  & .navList {
+    display: flex;
+  }
+
+  & .navItem:not(:last-child) {
+    margin-right: 32px;
+  }
+
+  & .navLink {
+    text-transform: capitalize;
+    font-size: 15px;
+  }
+}
+
+.dropdownButton {
+  position: relative;
+  color: inherit;
+  font-size: 15px;
+
+  & svg {
+    position: absolute;
+    top: 0;
+    width: 24px;
+    height: 20px;
+  }
+}

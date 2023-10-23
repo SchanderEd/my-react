@@ -1,0 +1,21 @@
+@import '../../../main.scss';
+
+.authBlock {
+  padding-top: 10px;
+
+  & .loginButton {
+    margin-right: 24px;
+    font-size: 14px;
+    text-transform: capitalize;
+  }
+
+  & .registerButton {
+    width: 111px;
+    height: 44px;
+    padding: 10px;
+    color: $white;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: $primary;
+  }
+}
